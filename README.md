@@ -11,13 +11,15 @@ Trench coats are cool. Everyone should own a trench coat. The *“Proper Trench 
 - See the shopping basket and the total price of the items.
 - Store data in a text file. When the program starts, entities are read from the file. Modifications made during program execution are stored in the file. Implement this using the `iostream` library. Create insertion and extraction operators for your entities and use these when reading/writing to files or the console.
 
+Within the program the following were done:
+
 -Use exceptions to signal errors:
     - from the repository;
     - validation errors – validate your entities using Validator classes;
     - create your own exception classes.
     - validate program input.
 
--Depending on your assignment, store your (adoption list, movie watch list, shopping basket or tutorial watch list) in a file. When the application starts, the user should choose the type of file between `CSV` or `HTML`. Depending on the type, the application will save the list in the correct format.
+-Store the shopping basket in a file. When the application starts, the user should choose the type of file between `CSV` or `HTML`. Depending on the type, the application will save the list in the correct format.
 
    **Indications**\
     The CSV file will contain each entity on one line and the attributes will be separated by comma \
@@ -30,6 +32,10 @@ Trench coats are cool. Everyone should own a trench coat. The *“Proper Trench 
     * shopping basket
     * tutorial watch list\
 Displaying the list means opening the saved file (`CSV` or `HTML`) with the correct application (`CSV` files using Notepad, Notepad++, Microsoft Excel etc. and `HTML` files using a browser)
+
+-Add multiple *undo* and *redo* functionality for the `add`, `remove`, and `update` operations. Implement this functionality using inheritance and polymorphism. You will have **Undo** and **Redo** buttons on the GUI, as well as a key combination to undo and redo the operations (e.g. `Ctrl+Z`, `Ctrl+Y`).
+
+-Show the contents of the `shopping basket` using a table view. You must use the [Qt View/Model](https://doc.qt.io/qt-5/modelview.html) components (`QTableView`). Create your own model – a class which inherits from [`QAbstractTableModel`](https://doc.qt.io/qt-5/qabstracttablemodel.html). This window will be opened from your GUI main window.
 
 ## Requirements
 - The application must be implemented in C++ and use layered architecture.
