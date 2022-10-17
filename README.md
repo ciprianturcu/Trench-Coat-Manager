@@ -19,10 +19,9 @@ Trench coats are cool. Everyone should own a trench coat. The *“Proper Trench 
 
 -Depending on your assignment, store your (adoption list, movie watch list, shopping basket or tutorial watch list) in a file. When the application starts, the user should choose the type of file between `CSV` or `HTML`. Depending on the type, the application will save the list in the correct format.
 
-    **Indications**\
+   **Indications**\
     The CSV file will contain each entity on one line and the attributes will be separated by comma \
-    The HTML file will contain a table, in which each row holds the data of one entity. The columns of the table will contain the names of the data attributes.\
-    These are exemplified in the [example.csv](example.csv) and [example.html](example.html) files.
+    The HTML file will contain a table, in which each row holds the data of one entity. The columns of the table will contain the names of the data attributes.
     `CSV` and `HTML` files are used to save and display data to the user; they act as program outputs, so data should not be read from them!
 
 -Add a new command, allowing the user to see the:
